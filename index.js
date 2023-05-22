@@ -7,7 +7,7 @@ const port = 5555;
 
 const uri = "mongodb+srv://admin:admin@burgerking.uqosg7q.mongodb.net/?retryWrites=true&w=majority";
 
-
+~
 app.use(cors());
 
 const client = new MongoClient(uri, {
